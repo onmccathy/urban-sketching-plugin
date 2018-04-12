@@ -1,0 +1,265 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/**
+ * see https://material.google.com/style/color.html#color-color-palette
+
+Blue    Code        Text
+500     #2196F3     White
+50      #E3F2FD     Black
+100     #BBDEFB     Black
+200     #90CAF9     Black
+300     #64B5F6     Black
+400     #42A5F5     Black
+500     #2196F3     White
+600     #1E88E5     White     
+700     #1976D2     White
+800     #1565C0     White
+900     #0D47A1     White
+A100    #82B1FF     White
+A200    #448AFF     White
+A400    #2979FF     White
+A700    #2962FF     White
+ */
+
+
+.sket-widget-container {
+    padding: 2em;
+    background-color: #E3F2FD;
+    box-shadow: 10px 10px 5px #888888; 
+}
+
+/* background-color blue 900  */ 
+.sow-features-feature .textwidget h5,
+.sket-widget-container .widget-title,
+.vantage-carousel-title-text,
+.sket-widget-container h2 {
+    background-color: #3F51B5;
+    color: #E8EAF6;
+    padding: 2em;
+    height: 1.5em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-overflow: ellipsis;
+}
+
+
+/* background-color blue 700  */ 
+.sket-widget-container h3 {
+ 
+    height: 1.5em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+/*   */ 
+
+.sket-button {
+    background-color: #009688
+}
+/* background-color blue 100  */ 
+.sket-widget-container .sket-sketch-even,
+.sket-widget-container .sket-sketch-odd {
+        padding: 1em;
+        margin-top: 1em;
+  
+}
+/* background-color blue 200  */ 
+.sket-widget-container .sket-sketch-even {
+    
+    background-color: #BBDEFB;
+    
+}
+
+
+.sket-top-overlap {
+    margin-top: -15em;
+    z-index: 999999999;
+    hieght: 200px;
+}
+
+.sow-features-feature .textwidget {
+    margin: 5px;
+    background-color: #E3F2FD;
+    box-shadow: 10px 10px 5px #888888;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    
+}
+.sow-features-feature .textwidget h5 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 175%;
+    padding: 1em;
+    
+}
+
+.sow-features-feature .textwidget p {
+    font-size: 120%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  
+}
+
+.sow-more-text {
+    margin: 1em;
+    padding: 1em;
+    background-color: #E91E63;
+    color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-width: 3em;
+    font-size: 150%;
+    
+}
+
+.sket-sow-headline h1{
+    font-size: 300%;
+    margin-top: 3em !important;
+    line-height: 1em !important;
+    
+}
+.sket-sow-headline .decoration {
+    background-color: #3F51B5;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+/*
+* Fancy box action button
+*/
+.sket-widget-container .sket-action-button {
+        width: 100%;
+        margin-top: 1em;
+        background-color: #E91E63;
+        border: none;
+        color: whitesmoke;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background: #E91E63; 
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #E91E63), color-stop(1, #E91E63));
+}
+/* Vantage Full Width Layout - Adjust Site Width */
+
+body.responsive.layout-full #page-wrapper .full-container {
+max-width: 95%;
+}
+
+/* Fancy widget grid display */
+@media (max-width: 1300px) {
+  
+  body.responsive .sket-flashycontainer-loop .sket-flashy-widget-wrapper {
+    width: 30%;
+  }
+}
+@media (max-width: 640px) {
+  
+  body.responsive .sket-flashycontainer-loop .sket-flashy-widget-wrapper {
+    width: 45%;
+  }
+}
+@media (max-width: 480px) {
+  
+  body.responsive .sket-flashycontainer-loop .sket-flashy-widget-wrapper {
+    float: none;
+    width: 90%;
+  }
+}
+.sket-flashycontainer-loop {
+  zoom: 1;
+  margin: 0 -20px;
+  
+  
+}
+.sket-flashycontainer-loop:before {
+  content: '';
+  display: block;
+}
+.sket-flashycontainer-loop:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.sket-flashycontainer-loop .sket-flashy-widget-wrapper {
+  width: 20%;
+  float: left;
+  clear: none;
+  margin-left: 30px;
+  
+  
+  
+}
+
+.sket-flashycontainer-loop .clear {
+  clear: both;
+}
+.sket-flashycontainer-loop .widgettitle {
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+.sket-widget-container .sket-widget-sub-title {
+    background-color: #3F51B5;
+    color: #E8EAF6;
+    padding: 1em;
+    margin-top: 0em;
+    font-size: 1.1em;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.sket-widget-container .sket-widget-field {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+.sket-flashycontainer-loop .sket-flashy-widget-wrapper {
+   
+    margin-bottom: 1.5em;
+    min-width: 300px
+    
+}
+.sket-metadata {
+    font-size: 120%;
+    margin-bottom: .5em;
+}
+.sket-entry-label {
+    font-weight: bold;
+}
+.sket-metadata:first-of-type {
+    margin-top: 1.5em;
+}
+.sket-entry-content {
+    
+    border-top: 2em;
+    border-top-color: black;
+    border-top-width: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-height: 125%;
+
+}
+/* google maps */
+#map {
+        height: 100%;
+}
+
